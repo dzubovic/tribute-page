@@ -59,10 +59,20 @@ blockquote {
 div .gallerybox {
   display: flex;
   flex-direction: row;
-  text-align: center;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 #img-caption-pic {
   font-size: 0.7rem;
+  margin: 25px auto 25px auto;
+  text-align: center;
+}
+#title {
+  font-size: 1.7rem;
+  color: #333;
+  max-width: 100%;
+  display: block;
   margin: 25px auto 25px auto;
   text-align: center;
 }
