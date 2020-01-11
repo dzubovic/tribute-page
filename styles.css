@@ -76,3 +76,16 @@ div .gallerybox {
   margin: 25px auto 25px auto;
   text-align: center;
 }
+div .image-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 15px 15px 15px 15px;
+}
